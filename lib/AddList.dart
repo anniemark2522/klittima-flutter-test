@@ -12,11 +12,11 @@ class AddList extends StatefulWidget {
 class _AddListState extends State<AddList> {
   final TextEditingController listworkController = TextEditingController();
   final TextEditingController durationController = TextEditingController();
-  String status = 'ยังไม่เสร็จ'; 
-  bool isLoading = false; 
+  String status = 'ยังไม่เสร็จ';
+  bool isLoading = false;
 
   Future<void> addListToFirestore() async {
-    if (isLoading) return; 
+    if (isLoading) return;
     setState(() {
       isLoading = true;
     });
@@ -52,7 +52,7 @@ class _AddListState extends State<AddList> {
         status = 'ยังไม่เสร็จ'; // รีเซ็ตค่า status
       });
 
-      Navigator.pop(context); 
+      Navigator.pop(context);
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('เกิดข้อผิดพลาด: $e')),

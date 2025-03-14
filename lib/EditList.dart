@@ -46,7 +46,10 @@ class _EditListState extends State<EditList> {
     }
 
     try {
-      await FirebaseFirestore.instance.collection('ToDo').doc(widget.docId).update({
+      await FirebaseFirestore.instance
+          .collection('ToDo')
+          .doc(widget.docId)
+          .update({
         'duration': newDuration,
         'status': status,
       });
