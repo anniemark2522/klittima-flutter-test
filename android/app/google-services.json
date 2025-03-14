@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278726497793",
+    "project_id": "klittima",
+    "storage_bucket": "klittima.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278726497793:android:5e73cc9489aa6bb03c9200",
+        "android_client_info": {
+          "package_name": "com.example.flutter_klittima_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVdQd4pt3TjkKD95vsPiWbE07EU3cRYZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
